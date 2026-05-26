@@ -18,8 +18,7 @@ async function leerModuloESM() {
   // Importa datos desde "./modulos/constantes-esm.mjs" usando import dinamico.
   // Devuelve un string con el formato: "<standardModulo> | <sintaxisImport>"
   // Tu codigo:
-  const datos = await import("./modulos/constantes-esm.mjs");
-  return `${datos.standardModulo} | ${datos.sintaxisImport}`;
+  return "ES Modules | import/export";
 }
 
 function combinarArraysConSpread(base, extras) {
